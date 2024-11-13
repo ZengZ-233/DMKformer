@@ -45,8 +45,8 @@ We compare with 10 time series transformer baselines:
 [PatchTST](https://github.com/yuqinie98/PatchTST),
 [Reformer](https://github.com/lucidrains/reformer-pytorch),
 [Transformer](https://github.com/jadore801120/attention-is-all-you-need-pytorch). 
-We implement our method and all the baselines based on the [Time-Series-Library](https://github.com/thuml/Time-Series-Library) project from Tsinghua University, 
-which integrates all methods under the same framework and training techniques to ensure a relatively fair comparison.
+[Medformer](https://github.com/DL4mHealth/Medformer).
+
 
 
 ## Requirements  
@@ -93,7 +93,4 @@ Since APAVA is the smallest dataset and faster to run,
 it is recommended to run and test our code with the APAVA dataset to get familiar with the framework.
 
 
-## Acknowledgement
 
-This codebase is constructed based on the repo: [Time-Series-Library](https://github.com/thuml/Time-Series-Library).
-Thanks a lot for their amazing work on implementing state-of-arts time series methods!
