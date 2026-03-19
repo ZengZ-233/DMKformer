@@ -92,5 +92,23 @@ The meaning and explanation of each parameter in command line can be found in `r
 Since APAVA is the smallest dataset and faster to run, 
 it is recommended to run and test our code with the APAVA dataset to get familiar with the framework.
 
+## Citation
+If you find this repo useful, please star our project and cite our paper.
+```
+@article{Zeng2026DmkformerAD,
+  title={Dmkformer: a dual-path routing Transformer with hybrid Mamba and KAN for medical time series},
+  author={Zhizun Zeng and Qiuyuan Gan and Wei Zhang and Yujie Li},
+  journal={Signal, Image and Video Processing},
+  year={2026},
+  url={https://api.semanticscholar.org/CorpusID:286478032}
+}
+```
+
+## Acknowledgement
+This project is constructed based on the code in repo [Medformer](https://github.com/DL4mHealth/Medformer). Thanks a lot for their amazing work on implementing state-of-arts time series methods!
+
+
+
+
 
 
